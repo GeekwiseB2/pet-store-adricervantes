@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two');
+/*UNIVERSALS*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER*/
+/*header.container-fluid {
+  padding-left: 164px;
+  padding-right: 164px;
+}*/
+
+#logo-img {
+  width: 105px;
+  height: 95px;
+}
+
+#logo-img~span {
+  display: inline-block;
+  font-family: 'Lobster Two', cursive;
+  color: #F2777C;
+  font-size: 65px;
+  text-transform: capitalize;
+}
+
+.nav-pills {
+  float: right;
+}
+
+.nav>li>a {
+  font-size: 28px;
+}
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron>p {
+  text-transform: uppercase;
+  color: #fff;
+}
