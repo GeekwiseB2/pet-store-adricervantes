@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 /*UNIVERSALS*/
 
 body, html {
@@ -8,10 +8,12 @@ body, html {
 
 
 /*HEADER*/
-/*header.container-fluid {
-  padding-left: 164px;
-  padding-right: 164px;
-}*/
+
+header.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
 #logo-img {
   width: 105px;
@@ -20,10 +22,11 @@ body, html {
 
 #logo-img~span {
   display: inline-block;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Satisfy', cursive;
   color: #F2777C;
-  font-size: 65px;
+  font-size: 40px;
   text-transform: capitalize;
+  margin-top: 25px;
 }
 
 .nav-pills {
@@ -31,7 +34,8 @@ body, html {
 }
 
 .nav>li>a {
-  font-size: 28px;
+  font-size: 22px;
+  margin-top: 30px;
 }
 
 .jumbotron {
@@ -45,4 +49,18 @@ body, html {
 .jumbotron>p {
   text-transform: uppercase;
   color: #fff;
+  font-size: 25px;
+}
+
+/*PRODUCTS SECTION*/
+
+.btn-default {
+  background-color: #5BC0DE;
+  color: #fff;
+  border: none;
+}
+
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 16px;
 }
